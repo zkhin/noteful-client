@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "alias": "shannon-noteful-app",
+  "alias": "zayar-noteful-app",
   "name": "noteful-app",
   "routes": [
     {
@@ -8,7 +8,7 @@
       "dest": "/static/$1"
     },
     {
-      "handle":"filesystem"
+      "handle": "filesystem"
     },
     {
       "src": ".*",
